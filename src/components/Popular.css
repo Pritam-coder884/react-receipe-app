@@ -1,0 +1,98 @@
+.box1 {
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.box2 img {
+  border-radius: 2rem;
+  width: 17rem;
+ height: 16rem;
+}
+.box2 p {
+  position: absolute;
+  z-index: 10;
+  left:20%;
+  bottom: 0%;
+  transform: translate(-50% 0%);
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 40%;
+}
+#veg img{
+  border-radius: 2rem;
+  width:11rem;
+  height: 16rem;
+}
+@media(max-width:1250px){
+  .box2 img{
+    width:15rem;
+    height:14rem;
+  }
+}
+@media(max-width:1080px){
+  .box2 img{
+    width:13rem;
+    height:12rem;
+  }
+}
+@media(max-width:950px){
+  .box2 img{
+    width:11rem;
+    height:10rem;
+  }
+} 
+@media(max-width:760px){
+  .box2 img{
+    width:9rem;
+    height:8rem;
+  }
+  
+}
+@media(max-width:608px){
+  .box2 img{
+    width:7rem;
+    height:6rem;
+  }
+}
+@media(max-width:1150px){
+  .box2 p{
+    position: absolute;
+    left:23%;
+    font-size:1rem;
+  }
+}
+@media(max-width:1000px){
+  .box2 p{
+    position: absolute;
+    left:35%;
+    font-size: 0.9rem;
+  }
+}
+@media(max-width:900px){
+  .box2 p{
+    position: absolute;
+    left:47%;
+    font-size: 0.75rem;
+  }
+}
+@media(max-width:800px){
+  .box2 p{
+    position: absolute;
+    left:70%;
+    bottom: 7%;
+    font-size: 0.65rem;
+  }
+}
+@media(max-width:700px){
+  .box2 p{
+    position: absolute;
+    left:70%;
+    bottom: 7%;
+    font-size: 0.55rem;
+  }
+}
+
